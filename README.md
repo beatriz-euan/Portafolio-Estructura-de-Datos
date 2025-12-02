@@ -51,12 +51,12 @@ El programa crea arreglos dinámicos de números flotantes (aleatorios o ingresa
 Tema: Estructuras hash para almacenamiento eficiente y manejo de colisiones.
 Problema trabajado: Implementación de dos sistemas: uno para estudiantes usando sondeo lineal, y otro estilo tabla de símbolos con listas ligadas, ambos enfocados en recuperación eficiente aun con colisiones.
 
-[Implementación 1 – Tabla Hash con Sondeo Lineal](ADA06/implement1/)
+[Implementación 1 – Tabla Hash con Sondeo Lineal](ADA06/implemet1/)
 
 Sistema que almacena estudiantes usando la matrícula (hasta 6 dígitos) como clave.
 Permite agregar, buscar y eliminar registros dentro de una tabla hash con direccionamiento abierto mediante sondeo lineal. Para mantener la continuidad del sondeo, los espacios eliminados se marcan con un estado especial.
 
-[Implementación 2 – Tabla de Símbolos (Hash con Encadenamiento)](ADA06/implement2/)
+[Implementación 2 – Tabla de Símbolos (Hash con Encadenamiento)](ADA06/implemet2/)
 
 Tabla hash usada como simulación de una tabla de símbolos de compilador.
 Cada identificador almacena atributos como clave, tipo, ámbito y valor. Las colisiones se manejan mediante listas ligadas, permitiendo insertar, buscar, eliminar e imprimir identificadores con eficiencia. El menú interactivo facilita manipular los datos desde consola.
