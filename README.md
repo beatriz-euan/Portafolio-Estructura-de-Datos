@@ -18,6 +18,7 @@ Debajo se proporciona la lista de las actividades realizadas con su respectiva d
 [ADA01 – Pilas (Stacks)](ADA01/)
 
 Tema: Uso de pilas para manipular expresiones.
+
 Problema trabajado: Conversión de expresiones infijas a posfijas empleando una pila para gestionar operadores y prioridades.
 El programa utiliza estructuras de datos de tipo pila basadas en memoria dinámica para almacenar temporalmente operadores durante el recorrido de expresiones infijas. Las expresiones se leen desde un archivo (expr_infijas.txt), se procesan mediante el algoritmo Shunting Yard de Dijkstra y se transforman a notación postfija, que se almacena en expr_posfijas.txt. La pila permite manejar la precedencia de operadores y los paréntesis, generando una conversión correcta y automatizada.
 
